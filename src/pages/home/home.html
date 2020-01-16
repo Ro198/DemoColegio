@@ -1,14 +1,93 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding="true" style="background: url(img/fondo.png) no-repeat center;">
+
+  <form #loginForm="ngForm">
+
+    <img src="img/profesor.png" style="width : 70% ; height : 50%">
+
+    <br>
+
+    <ion-item clearInput class="item-md">
+      <ion-icon name="person" subtle large item-left color="zula2"></ion-icon>
+      <ion-label floating style="color: #7DBCD5;">Profesor</ion-label>
+      <ion-input required spellcheck="false" type="text" [(ngModel)]="login.username" name="username"
+        #username="ngModel" spellcheck="false" required
+        oninvalid="setCustomValidity('Por favor ingresa tu nombre de usuario')"
+        onchange="try{setCustomValidity('')}catch(e){}" title="Por favor ingresa tu nombre de usuario" type="usuario"
+        maxlength="60"></ion-input>
+    </ion-item>
+
+    <p [hidden]="username.valid  || submitted==false " color="danger" padding-left>
+ 
+    </p>
+
+
+    <ion-item clearInput class="item-md">
+      <ion-icon name="key" subtle large item-left color="zula2"></ion-icon>
+      <ion-label floating style="color: #7DBCD5;">Contraseña</ion-label>
+      <ion-input required spellcheck="false" type="password" [(ngModel)]="login.password" name="password"
+        #password="ngModel" spellcheck="false" oninvalid="setCustomValidity('Por favor ingresa tu contraseña')"
+        onchange="try{setCustomValidity('')}catch(e){}"></ion-input>
+    </ion-item>
+
+    <p [hidden]="password.valid  || submitted==false " color="danger" padding-left>
+
+    </p>
+
+
+    <div padding></div>
+
+    <!--Boton Login-->
+    <div class="continuar">
+      <button ion-button round block color="zula1" style="height: 40px" type="submit" (click)="loginUser(loginForm)">
+        <ion-icon name="log-in" subtle large item-left></ion-icon>
+        Iniciar Sesión
+      </button> 
+    </div>
+
+  </form>
+  
+
+ 
+<ion-grid>
+  <ion-row>
+
+      <ion-col><p style="text-align: center;">¡No eres profesor!</p></ion-col>
+      <ion-col><p style="text-align: center;">¡No tienes una cuenta!</p></ion-col>
+
+  </ion-row>
+
+  <ion-row>
+      <ion-col>
+    <!--Boton Regresar-->
+
+    <div style="text-align: center;">
+      <button ion-button round color="secondary" (click)="regresar()">
+          <ion-icon name="arrow-round-back" subtle large item-left></ion-icon>
+        Regresar
+      </button>
+    </div>
+  </ion-col>
+
+    <!--Boton Regristrar-->
+    <ion-col>
+      <div style="text-align: center;">
+        <button ion-button round color="zula2" (click)="registrar()">
+            Registrate
+            <ion-icon name="arrow-round-forward" subtle large item-left></ion-icon>
+        </button>
+      </div>
+    </ion-col>
+  </ion-row>
+
+</ion-grid>
+ 
+  <br>
+
+
+  <p style="text-align: center; font-size: 12px;">Versión de prueba</p>
+  <p style="text-align: center; font-size: 12px;">Demostración de una aplicación para colegios</p>
+  <p style="text-align: center; font-size: 12px;"><B>ZulaSoft</B> | Inicio de sesión | software solutions</p>
+
+
 </ion-content>

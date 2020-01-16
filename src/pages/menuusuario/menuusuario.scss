@@ -1,0 +1,34 @@
+page-menuusuario {
+    .toolbar-title {
+        text-align: center;
+    }
+    .searchbar-md .searchbar-input {
+        border-radius: 30px;
+    }
+    .item-md p {
+        margin: 0 0 2px;
+        overflow: inherit;
+        font-size: 1.6rem;
+        line-height: normal;
+        text-overflow: inherit;
+        color: #666;
+    }
+    .item-ios p {
+        margin: 0 0 2px;
+        overflow: inherit;
+        font-size: 1.6rem;
+        line-height: normal;
+        text-overflow: inherit;
+        color: #666;
+    }
+    .item-md h2 {
+        margin: 2px 0;
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+    .item-ios h2 {
+        margin: 2px 0;
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+}

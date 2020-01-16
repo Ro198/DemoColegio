@@ -1,0 +1,11 @@
+export { MenuPage } from "./menu/menu";
+export { InicioPage } from "./inicio/inicio";
+export { LoginusuarioPage } from "./loginusuario/loginusuario";
+export { MenuusuarioPage } from "./menuusuario/menuusuario";
+export { GruposPage } from "./grupos/grupos";
+export { AlumnosPage } from "./alumnos/alumnos";
+export { AlumnodetallePage } from "./alumnodetalle/alumnodetalle"; 
+export { TrabajosPage } from "./trabajos/trabajos";
+export { ParticipacionesPage } from "./participaciones/participaciones";
+export { TareasPage } from "./tareas/tareas";
+export { ProyectoPage } from "./proyecto/proyecto";

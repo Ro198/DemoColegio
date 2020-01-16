@@ -1,0 +1,66 @@
+
+
+<ion-content padding="true" style="background: url(img/menu.png) no-repeat center;">
+
+  <h5 style="text-align: center;" >Colegio Siglo XXI</h5>
+  <br>
+  
+    <ion-list (click)="grupo()">
+      <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">
+          <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">
+    
+            <h2 style="color: black;">
+               Grupo A
+            </h2>
+            <p style="color: white;"> Turno: matutino • ciclo escolar: 2019</p>
+            <p style="color: white;"> Horario: 10:00 a 11:00</p>
+            <button ion-button clear item-end color="zula1">
+              <ion-icon name="arrow-round-forward"></ion-icon>
+            </button>
+    
+          </ion-item>
+        </ion-item-sliding>
+        <br>
+      <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">
+          <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">
+    
+            <h2 style="color: black;">
+              Grupo B
+            </h2>
+            <p style="color: white;"> Turno: matutino • ciclo escolar: 2019</p>
+            <p style="color: white;"> Horario: 11:00 a 12:00</p>
+            <button ion-button clear item-end color="zula1">
+              <ion-icon name="arrow-round-forward"></ion-icon>
+            </button>
+    
+          </ion-item>
+        </ion-item-sliding>
+ 
+    </ion-list>
+  
+<!--
+    <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">
+      <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">
+        <h2 style="color: white;">
+           Notas:
+         </h2>
+          <p style="color: black;"> Para el Grupo A se le aplicara mañana examen
+           y para mañana se entregan trabajos para el Grupo B
+          </p>
+      </ion-item>
+    </ion-item-sliding>
+-->
+  
+  </ion-content>
+  
+  <ion-footer>
+      <ion-navbar color="zula2">
+        <ion-title>Mis grupos</ion-title>
+        <ion-buttons end>
+          <button ion-button icon-only (click)="agregar()">
+            <ion-icon name="add" style="color: white;"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-navbar>
+    
+    </ion-footer>

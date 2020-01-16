@@ -1,0 +1,43 @@
+page-loginusuario {
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin: 0 auto;
+        top: 100%;
+        transform: translateY(0%);
+      }
+    
+      .item-md {
+        /*border-color: rgba(0, 0, 0, 0);*/
+        background-color: rgba(0, 0, 0, 0);
+        color: black;
+      }
+    
+      .continuar {
+        margin-bottom: 1.5em;
+      }
+    
+      .fpbutton {
+        margin-top: 10px;
+      }
+    
+      .button-ios-secondary {
+        background-color: orangered;
+      }
+      .button-md-secondary {
+        background-color: orangered;
+      }
+    
+      ion-icon {
+        margin-right: 5px;
+      }
+
+      ion-icon {
+        margin-left: 5px;
+      }
+    
+      .button-md {
+        text-transform: none;
+      }
+}

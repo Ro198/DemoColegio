@@ -7,10 +7,35 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import {
+  MenuPage,
+  InicioPage,
+  LoginusuarioPage, 
+  MenuusuarioPage,
+  GruposPage,
+  AlumnosPage,
+  AlumnodetallePage,
+  TrabajosPage,
+  ParticipacionesPage,
+  TareasPage,
+  ProyectoPage,
+ } from "../pages/index.paginas";
+
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    MenuPage,
+    InicioPage,
+    LoginusuarioPage,
+    MenuusuarioPage,
+    GruposPage,
+    AlumnosPage,
+    AlumnodetallePage,
+    TrabajosPage,
+    ParticipacionesPage,
+    TareasPage,
+    ProyectoPage,
   ],
   imports: [
     BrowserModule,
@@ -19,7 +44,18 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    MenuPage,
+    InicioPage,
+    LoginusuarioPage,
+    MenuusuarioPage,
+    GruposPage,
+    AlumnosPage,
+    AlumnodetallePage,
+    TrabajosPage,
+    ParticipacionesPage,
+    TareasPage,
+    ProyectoPage,
   ],
   providers: [
     StatusBar,
