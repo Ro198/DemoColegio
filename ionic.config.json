@@ -1,0 +1,8 @@
+{
+  "name": "democolegio",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "c7409e44"
+}
