@@ -21,7 +21,7 @@ npm-debug.log*
 
 
 
-/.versions
+
 /.vscode
 /coverage
 /dist
