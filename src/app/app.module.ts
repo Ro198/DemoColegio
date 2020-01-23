@@ -19,6 +19,7 @@ import {
   ParticipacionesPage,
   TareasPage,
   ProyectoPage,
+  UseralumnodetallePage,
  } from "../pages/index.paginas";
 
 @NgModule({
@@ -36,6 +37,7 @@ import {
     ParticipacionesPage,
     TareasPage,
     ProyectoPage,
+    UseralumnodetallePage,
   ],
   imports: [
     BrowserModule,
@@ -56,6 +58,7 @@ import {
     ParticipacionesPage,
     TareasPage,
     ProyectoPage,
+    UseralumnodetallePage,
   ],
   providers: [
     StatusBar,

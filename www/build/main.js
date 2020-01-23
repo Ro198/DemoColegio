@@ -34,6 +34,50 @@ webpackEmptyAsyncContext.id = 150;
 
 /***/ }),
 
+/***/ 19:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__menu_menu__ = __webpack_require__(270);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__menu_menu__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__inicio_inicio__ = __webpack_require__(194);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__inicio_inicio__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loginusuario_loginusuario__ = __webpack_require__(271);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__loginusuario_loginusuario__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menuusuario_menuusuario__ = __webpack_require__(272);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_3__menuusuario_menuusuario__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__grupos_grupos__ = __webpack_require__(273);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__grupos_grupos__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__alumnos_alumnos__ = __webpack_require__(274);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__alumnos_alumnos__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__alumnodetalle_alumnodetalle__ = __webpack_require__(275);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_6__alumnodetalle_alumnodetalle__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__trabajos_trabajos__ = __webpack_require__(276);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_7__trabajos_trabajos__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__participaciones_participaciones__ = __webpack_require__(277);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_8__participaciones_participaciones__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tareas_tareas__ = __webpack_require__(278);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_9__tareas_tareas__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__proyecto_proyecto__ = __webpack_require__(279);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_10__proyecto_proyecto__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Useralumnodetalle_Useralumnodetalle__ = __webpack_require__(280);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_11__Useralumnodetalle_Useralumnodetalle__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+//# sourceMappingURL=index.paginas.js.map
+
+/***/ }),
+
 /***/ 194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -42,7 +86,7 @@ webpackEmptyAsyncContext.id = 150;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -90,7 +134,7 @@ var InicioPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -156,7 +200,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(269);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -190,6 +234,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["h" /* ParticipacionesPage */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["j" /* TareasPage */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["i" /* ProyectoPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["l" /* UseralumnodetallePage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -212,6 +257,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["h" /* ParticipacionesPage */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["j" /* TareasPage */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["i" /* ProyectoPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_index_paginas__["l" /* UseralumnodetallePage */],
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -224,47 +270,6 @@ var AppModule = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=app.module.js.map
-
-/***/ }),
-
-/***/ 25:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__menu_menu__ = __webpack_require__(270);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__menu_menu__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__inicio_inicio__ = __webpack_require__(194);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__inicio_inicio__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loginusuario_loginusuario__ = __webpack_require__(271);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__loginusuario_loginusuario__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menuusuario_menuusuario__ = __webpack_require__(272);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_3__menuusuario_menuusuario__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__grupos_grupos__ = __webpack_require__(273);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__grupos_grupos__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__alumnos_alumnos__ = __webpack_require__(274);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__alumnos_alumnos__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__alumnodetalle_alumnodetalle__ = __webpack_require__(275);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_6__alumnodetalle_alumnodetalle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__trabajos_trabajos__ = __webpack_require__(276);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_7__trabajos_trabajos__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__participaciones_participaciones__ = __webpack_require__(277);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_8__participaciones_participaciones__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tareas_tareas__ = __webpack_require__(278);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_9__tareas_tareas__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__proyecto_proyecto__ = __webpack_require__(279);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_10__proyecto_proyecto__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-//# sourceMappingURL=index.paginas.js.map
 
 /***/ }),
 
@@ -322,7 +327,7 @@ var MyApp = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -368,7 +373,7 @@ var MenuPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginusuarioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -420,6 +425,7 @@ var LoginusuarioPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuusuarioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -431,6 +437,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var MenuusuarioPage = /** @class */ (function () {
     function MenuusuarioPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
@@ -438,12 +445,15 @@ var MenuusuarioPage = /** @class */ (function () {
     }
     MenuusuarioPage.prototype.getItems = function ($event) {
     };
+    MenuusuarioPage.prototype.alumnoDetalles = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["l" /* UseralumnodetallePage */]);
+    };
     MenuusuarioPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad MenuusuarioPage');
     };
     MenuusuarioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menuusuario',template:/*ion-inline-start:"C:\Users\cibanco1\Documents\PROYECTOS\ionic\10-democolegio\src\pages\menuusuario\menuusuario.html"*/'\n  \n  <ion-content padding="true" style="background: url(img/menu.png) no-repeat center;">\n  \n    <ion-searchbar cancelButtonText (ionInput)="getItems($event)" \n    placeholder="Buscar alumno" \n    style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n</ion-searchbar>\n  \n<br>\n<!--****************************************************************************************-->\n\n<ion-list>\n    <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n      <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n\n        <h2 style="color: black;">\n           Salvador Rodrigo Ortiz Avila\n        </h2>\n        <p style="color: white;"> Grupo: A • Turno: matutino</p>\n        <button ion-button clear item-end color="zula1">\n          <ion-icon name="arrow-round-forward"></ion-icon>\n        </button>\n\n      </ion-item>\n    </ion-item-sliding>\n<br>\n    <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n        <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n  \n          <h2 style="color: black;">\n             Miguel Angel Vasquez Jimenes\n          </h2>\n          <p style="color: white;"> Grupo: B • Turno: vespertino</p>\n          <button ion-button clear item-end color="zula1">\n            <ion-icon name="arrow-round-forward"></ion-icon>\n          </button>\n  \n        </ion-item>\n      </ion-item-sliding>\n  </ion-list>\n  \n  </ion-content>\n\n  <ion-footer>\n      <ion-navbar color="zula2">\n        <ion-title>buscar</ion-title>\n      </ion-navbar>\n    </ion-footer>'/*ion-inline-end:"C:\Users\cibanco1\Documents\PROYECTOS\ionic\10-democolegio\src\pages\menuusuario\menuusuario.html"*/,
+            selector: 'page-menuusuario',template:/*ion-inline-start:"C:\Users\cibanco1\Documents\PROYECTOS\ionic\10-democolegio\src\pages\menuusuario\menuusuario.html"*/'\n  \n  <ion-content padding="true" style="background: url(img/menu.png) no-repeat center;">\n  \n    <ion-searchbar cancelButtonText (ionInput)="getItems($event)" \n    placeholder="Buscar alumno" \n    style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n</ion-searchbar>\n  \n<br>\n<!--****************************************************************************************-->\n\n<ion-list>\n    <ion-item-sliding  (click)="alumnoDetalles()" style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n      <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n\n        <h2 style="color: black;">\n           Salvador Rodrigo Ortiz Avila\n        </h2>\n        <p style="color: white;"> Grupo: A • Turno: matutino</p>\n        <button ion-button clear item-end color="zula1">\n          <ion-icon name="arrow-round-forward"></ion-icon>\n        </button>\n\n      </ion-item>\n    </ion-item-sliding>\n<br>\n    <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n        <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n  \n          <h2 style="color: black;">\n             Miguel Angel Vasquez Jimenes\n          </h2>\n          <p style="color: white;"> Grupo: B • Turno: vespertino</p>\n          <button ion-button clear item-end color="zula1">\n            <ion-icon name="arrow-round-forward"></ion-icon>\n          </button>\n  \n        </ion-item>\n      </ion-item-sliding>\n  </ion-list>\n  \n  </ion-content>\n\n  <ion-footer>\n      <ion-navbar color="zula2">\n        <ion-title>buscar</ion-title>\n      </ion-navbar>\n    </ion-footer>'/*ion-inline-end:"C:\Users\cibanco1\Documents\PROYECTOS\ionic\10-democolegio\src\pages\menuusuario\menuusuario.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
     ], MenuusuarioPage);
@@ -461,7 +471,7 @@ var MenuusuarioPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GruposPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -507,7 +517,7 @@ var GruposPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlumnosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -555,7 +565,7 @@ var AlumnosPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlumnodetallePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -754,6 +764,59 @@ var ProyectoPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=proyecto.js.map
+
+/***/ }),
+
+/***/ 280:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UseralumnodetallePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var UseralumnodetallePage = /** @class */ (function () {
+    function UseralumnodetallePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    UseralumnodetallePage.prototype.trabajos = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["k" /* TrabajosPage */]);
+    };
+    UseralumnodetallePage.prototype.participaciones = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["h" /* ParticipacionesPage */]);
+    };
+    UseralumnodetallePage.prototype.tareas = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["j" /* TareasPage */]);
+    };
+    UseralumnodetallePage.prototype.proyecto = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["i" /* ProyectoPage */]);
+    };
+    UseralumnodetallePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad UseralumnodetallePage');
+    };
+    UseralumnodetallePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-useralumnodetalle',template:/*ion-inline-start:"C:\Users\cibanco1\Documents\PROYECTOS\ionic\10-democolegio\src\pages\Useralumnodetalle\useralumnodetalle.html"*/'<ion-content style="background: url(img/menu.png) no-repeat center;">\n  <img src="img/perfilM2.png" />\n\n  <ion-grid>\n     <ion-row>\n        <ion-col>\n           <h1 style="text-align: center; margin-top: -270px;">\n              <ion-icon name="contact" color="zula2"></ion-icon>\n              Salvador Rodrigo ortiz Avila\n           </h1>\n           <p style="color: black;; text-align: center;">Genero: Masculino</p>\n           <p style="color: black;; text-align: center;">Comportamiento: Bueno</p>\n        </ion-col>\n        <ion-col>\n           <h5 style="color: black; margin-top: -250px; text-align: center;">\n              <strong style="color: black;">Calificación Final</strong>\n           </h5>\n           <h3 style="color: black; margin-top: 0px; text-align: center;">\n              <strong style="color: #009CAD;">8.9</strong>\n           </h3>\n        </ion-col>\n     </ion-row>\n  </ion-grid>\n\n  <!--************************************************************************************************-->\n\n  <ion-list padding style="margin-top: -115px;" (click)="trabajos()">\n     <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n        <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n           <ion-row style="text-align: center;">\n              <ion-col>\n                    <img src="img/trabajos.png"/>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">TRABAJOS EN CLASE</p>\n                 <p style="color: white; font-size: 3.0rem;">12</p>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">Puntaje</p>\n                 <p style="color: white; font-size: 2.5rem;">2.5</p>\n              </ion-col>\n           </ion-row>\n        </ion-item>\n     </ion-item-sliding>\n  </ion-list>\n\n  <ion-list padding style="margin-top: -30px;" (click)="participaciones()">\n     <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n        <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n           <ion-row style="text-align: center;">\n              <ion-col>\n                    <img src="img/participaciones.png"/>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">PARTICIPACIONES</p>\n                 <p style="color: white; font-size: 3.0rem;">12</p>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">Puntaje</p>\n                 <p style="color: white; font-size: 2.5rem;">2.5</p>\n              </ion-col>\n           </ion-row>\n        </ion-item>\n     </ion-item-sliding>\n  </ion-list>\n\n  <ion-list padding style="margin-top: -30px;" (click)="tareas()">\n     <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n        <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n           <ion-row style="text-align: center;">\n              <ion-col>\n                    <img src="img/tareas.png"/>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">TAREAS</p>\n                 <p style="color: white; font-size: 3.0rem;">10</p>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">Puntaje</p>\n                 <p style="color: white; font-size: 2.5rem;">2.0</p>\n              </ion-col>\n           </ion-row> \n        </ion-item> \n     </ion-item-sliding>\n  </ion-list>\n\n  <ion-list padding style="margin-top: -30px;" (click)="proyecto()">\n     <ion-item-sliding style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px; border: #00A7C9 1px solid;">\n        <ion-item style="background-color: rgba(0, 0, 0, 0.1); border-radius: 30px;">\n           <ion-row style="text-align: center;">\n              <ion-col>\n                    <img src="img/proyecto.png"/>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">PROYECTO</p>\n                 <p style="color: white; font-size: 3.0rem;">1</p>\n              </ion-col>\n              <ion-col>\n                 <p style="color: white;">Puntaje</p>\n                 <p style="color: white; font-size: 2.5rem;">2.9</p>\n              </ion-col>\n           </ion-row>\n        </ion-item>\n     </ion-item-sliding>\n  </ion-list>\n\n</ion-content>\n\n<ion-footer>\n  <ion-navbar color="zula2">\n     <ion-title>Detalles</ion-title>\n  </ion-navbar>\n</ion-footer>'/*ion-inline-end:"C:\Users\cibanco1\Documents\PROYECTOS\ionic\10-democolegio\src\pages\Useralumnodetalle\useralumnodetalle.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
+    ], UseralumnodetallePage);
+    return UseralumnodetallePage;
+}());
+
+//# sourceMappingURL=Useralumnodetalle.js.map
 
 /***/ })
 

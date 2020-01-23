@@ -9,3 +9,4 @@ export { TrabajosPage } from "./trabajos/trabajos";
 export { ParticipacionesPage } from "./participaciones/participaciones";
 export { TareasPage } from "./tareas/tareas";
 export { ProyectoPage } from "./proyecto/proyecto";
+export { UseralumnodetallePage } from "./Useralumnodetalle/Useralumnodetalle";

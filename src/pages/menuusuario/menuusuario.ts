@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
+import {
+  UseralumnodetallePage
+} from "../index.paginas";
+
 
 @Component({
   selector: 'page-menuusuario',
@@ -15,6 +19,9 @@ export class MenuusuarioPage {
 
   }
 
+  alumnoDetalles(){
+    this.navCtrl.push(UseralumnodetallePage);
+  }
   
   ionViewDidLoad() {
     console.log('ionViewDidLoad MenuusuarioPage');
