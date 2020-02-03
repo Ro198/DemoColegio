@@ -3,6 +3,8 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { HomePage } from '../home/home';
 
+
+
 import {
       LoginusuarioPage
 } from "../index.paginas";
@@ -13,9 +15,15 @@ import {
 })
 export class InicioPage {
 
+ 
+  constructor(public navCtrl: NavController, 
+              public navParams: NavParams) {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
   }
+
+
+
 
   loginMaestro() {
 

@@ -7,7 +7,7 @@ import {
   TareasPage,
   ProyectoPage,
 } from "../index.paginas";
-import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+//import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
  
 @Component({
   selector: 'page-alumnodetalle',
